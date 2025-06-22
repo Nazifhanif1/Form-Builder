@@ -52,6 +52,7 @@
     ]
   },
   "devDependencies": {
-    "@types/country-list": "^2.1.4"
+    "@types/country-list": "^2.1.4",
+    "jest": "^27.5.1"
   }
 }

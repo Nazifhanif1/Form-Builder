@@ -95,7 +95,8 @@ function DraggableHtmlBlock({ id, index, draggedIndex, children, onDragStart, on
             ref={ref}
             className={`relative draggable-block w-fit p-2 ${isSelected ? ' border border-[#00ADB5] rounded-lg' : ''} ${isDragging ? 'dragging opacity-50' : ''}`}
             tabIndex={-1}
-
+            data-testid="draggable-html-block"
+            draggable={true}
         >
             {isDragOver && (
                 <DropIndicator edge={isHigherIndex ? "top" : "bottom"} />

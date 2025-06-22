@@ -193,7 +193,7 @@ function Canvas() {
     return (
         <form
             ref={ref}
-            id="canvas-root"
+            data-testid="canvas-root"
             className={"flex flex-col gap-4 rounded-lg bg-white shadow-lg p-12 h-[85%] overflow-y-scroll scrollbar-hide-button max-w-[1000px]" + (isDraggedOver ? " border-2 border-dashed border-gray-500" : "")}
         >
             {elements.map((el, idx) => (
